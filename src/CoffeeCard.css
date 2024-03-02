@@ -1,0 +1,74 @@
+.coffee-card {
+    width: 200px;
+    height: 260px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-section {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .coffee-image {
+    width: 100px; /* العرض ثابت للصورة */
+  }
+  
+  .text-section {
+    height: 110px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .coffee-name {
+    color: #140C05;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .coffee-size {
+    color: #140C05;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+  }
+  
+  .price-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    color: #140C05;
+  }
+  
+  .quantity-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .minus-icon {
+    cursor: pointer;
+    margin-right: 9px; /* الهامش من اليمين فقط */
+  }
+  
+  .plus-icon {
+    cursor: pointer;
+    margin-left: 9px; /* الهامش من اليمين فقط */
+  }
+  
+  .quantity {
+    margin: 0 9px; /* الهامش من اليمين واليسار */
+  }
+  
+  
+  

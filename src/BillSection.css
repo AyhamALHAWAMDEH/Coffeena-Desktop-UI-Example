@@ -1,0 +1,59 @@
+.bill-section {
+    color:  #ECE0D1;
+    font-size: 18px;
+
+  }
+  
+  .bill-text {
+    margin-bottom: 12px;
+  }
+
+  .article-width {
+    flex: 0 0 40%; /* 40% من العرض الكلي للحاوية */
+  }
+  
+  .qty-width {
+    flex: 0 0 20%; /* 20% من العرض الكلي للحاوية */
+  }
+  
+  .total-width {
+    flex: 0 0 25%; /* 25% من العرض الكلي للحاوية */
+  }
+  
+  .delete-button {
+    flex: 0 0 15%; /* 15% من العرض الكلي للحاوية */
+  }
+  
+
+  .calc-width{
+    flex: 0 0 60%; 
+  }
+  
+  .bill-header, .bill-item, .bill-totals {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  
+  hr {
+    margin: 16px 0;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .checkout-button {
+    padding: 20px 40px 20px 40px;
+    margin: 50px 10px 0 100px;
+    background-color: #ECE0D1;
+    border: none;
+    border-radius: 12px;
+    color: #38220F;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  

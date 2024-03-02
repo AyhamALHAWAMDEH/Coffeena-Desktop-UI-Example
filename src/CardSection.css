@@ -1,0 +1,7 @@
+.coffee-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* ينشئ أربعة أعمدة بأحجام متساوية */
+    gap: 20px; /* المسافة بين البطاقات */
+  }
+  
+  
